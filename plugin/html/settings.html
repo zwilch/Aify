@@ -40,11 +40,17 @@
       </div>
     </div>
     <div class="container">
+	  <div class="row">
+	   <div class="col-25"> <label for="provider">Provider</label> </div>
+	   <div class="col-75">
+	    <select id="provider"></select>
+	   </div>
+	  </div>
       <div class="row">
         <div class="col-25"> <label for="model">Model</label> </div>
         <div class="col-75">
-          <select id="model">
-	  </select>
+          <select id="model"></select>
+		  <button id="get-models" value="Update Model List" class="button neutral">Update Models</button>
         </div>
       </div>
       <div class="row">
@@ -70,7 +76,7 @@
       <div class="row">
 	<div class="col-25"></div>
 	<div class="col-75">
-	  <button id="get-models" value="Update Model List" class="button neutral">Update Models (need API key)</button>
+	
     <button id="default-settings" value="Clear Settings" class="button bad">Clear Settings</button>
     <button value="Save" id="save-settings" class="button good">Save</button>
 	</div>
